@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	int n = 0;
+	int x = 0;
 
-	while (n <= 9)
+	while (x <= 9)
 	{
-		printf("%i", n);
-		n++;
+		putchar(x + '0');
+		x++;
 	}
-	printf("\n");
+	putchar('\n);
 	return (0);
 }
