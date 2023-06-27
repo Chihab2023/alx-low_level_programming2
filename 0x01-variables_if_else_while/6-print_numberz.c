@@ -5,16 +5,14 @@
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	int x = 0;
+	int x;
 
-	while (x <= 9)
+	for (x = 48; x < 58; x++)
 	{
-		putchar (x + '0');
-		x++;
+		putchar(x);
 	}
-	putchar ('\n);
+	putchar('\n');
 	return (0);
 }
